@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Mono:400,700,400italic&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic&subset=cyrillic,latin);
+
+a, a:visited {
+    color: rgb(0, 153, 255);
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.remark-code {
+    font-size: 24px;
+}
+.shout-code .remark-code {
+  font-size: 38px;
+}
+
+.shout {
+    background-color: #2E2E2C;
+    color: rgb(255, 255, 255);
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.contain {
+    background-size: contain !important;
+}
+
+.shout h1,
+.shout h3 {
+    text-shadow: #2E2E2C 2px 2px;
+}
+
+.remark-slide-content {
+    font-size: 26px;
+    padding: 1em 2em 1em 2em;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Mono';
+    font-weight: bold;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'PT Mono';
+}
+
+.remark-slide-content.hh:after {
+    background-image: url(../i/hh.svg);
+}
+
+.remark-slide-content:after {
+    content: '';
+    width: 64px;
+    height: 64px;
+    background: url(../i/moscowjs.svg);
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+}
+
+.remark-code {
+    overflow: hidden;
+}
